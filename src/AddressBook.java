@@ -91,8 +91,8 @@ public class AddressBook {
 		//load file
 		 try
 	        {	
-			 	      File infile = new File("src/adressbook.txt");
-			 	      infile.createNewFile();
+		    File infile = new File("src/adressbook.txt");
+		    infile.createNewFile();
 	            FileInputStream fis = new FileInputStream(infile);
 	            ObjectInputStream ois = new ObjectInputStream(fis);
 	            contacts = (ArrayList<Contact>) ois.readObject();
