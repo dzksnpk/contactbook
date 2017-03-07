@@ -69,14 +69,14 @@ class Contact implements Serializable {
 
 }
 
-public class AdressBook {
-	public static AdressBook instance;
+public class AddressBook {
+	public static AddressBook instance;
 	private ArrayList<Contact> contacts;
 	private Scanner scanner;
 	
 	public static void main(String[] args) throws ClassNotFoundException, FileNotFoundException {
 		
-		instance = new AdressBook();
+		instance = new AddressBook();
 		instance.init();
 		instance.run();
 		
