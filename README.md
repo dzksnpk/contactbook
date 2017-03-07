@@ -1,7 +1,7 @@
 # Contact book 
 java applet with .txt database
 
-0. creates txt file called address.txt if not exist. 
+- creates txt file called address.txt if not exist. 
 
 MENU
 
